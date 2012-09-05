@@ -5,5 +5,8 @@
     "owner": "Randy Merrill",
     "description": "",
     "index_articles": 3
-  }
+  },
+  "plugins": [
+  	"wintersmith-less"
+  ]
 }

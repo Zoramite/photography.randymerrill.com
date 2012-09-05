@@ -8,9 +8,15 @@ block header
   a.back(href='/') << back to index
   h1= page.title
   p
-    | written by:
+    | written by: 
     mixin author(page.metadata.author)
 
 block content
   article.post
     section.content!= page.html
+
+  if page.metadata.gallery
+    section.gallery
+      include gallery
+
+      mixin gallery(page.metadata.gallery)

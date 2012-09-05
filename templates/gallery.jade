@@ -1,0 +1,5 @@
+mixin gallery(count)
+  .gallery
+    - for(i = 0; i < count; i++)
+      .slide
+        img(src="image" + (i < 10 ? '0' : '') + (i + 1) + '.jpg', width="100%")
