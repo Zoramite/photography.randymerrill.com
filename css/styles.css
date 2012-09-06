@@ -793,7 +793,7 @@ html {
   height: 100%;
 }
 body {
-  font-family: 'Telex', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 12pt;
   line-height: 1.15em;
   color: #faf0e6;
@@ -831,7 +831,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Esteban', serif;
+  font-family: 'Quattrocento', serif;
   line-height: 1.5em;
   font-weight: normal;
   color: #e91c23;
@@ -968,6 +968,7 @@ header .navigation {
   border-radius: 0.5em;
   -webkit-border-radius: 0.5em;
   -moz-border-radius: 0.5em;
+  font-family: 'Quattrocento', serif;
 }
 header .navigation li {
   text-align: center;
