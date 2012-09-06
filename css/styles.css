@@ -789,12 +789,6 @@ button:-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 p,
 blockquote,
 body {
@@ -839,6 +833,8 @@ h6 {
   line-height: 1.5em;
   font-weight: normal;
   color: #e91c23;
+  margin: .5em 0 .75em 0;
+  padding: 0;
 }
 h1 a,
 h2 a,
