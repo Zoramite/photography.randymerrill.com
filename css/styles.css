@@ -795,21 +795,19 @@ body {
   margin: 0;
   padding: 0;
 }
-html {
-  height: 100%;
-}
 body {
   font-family: 'Telex', sans-serif;
   font-size: 12pt;
   line-height: 1.15em;
   color: #faf0e6;
-  height: 100%;
   background: #1b1b1b;
-  background-image: linear-gradient(bottom, #000000 60%, #1b1b1b 100%);
-  background-image: -o-linear-gradient(bottom, #000000 60%, #1b1b1b 100%);
-  background-image: -moz-linear-gradient(bottom, #000000 60%, #1b1b1b 100%);
-  background-image: -webkit-linear-gradient(bottom, #000000 60%, #1b1b1b 100%);
-  background-image: -ms-linear-gradient(bottom, #000000 60%, #1b1b1b 100%);
+  background-image: linear-gradient(bottom, #000000 70%, #1b1b1b 100%);
+  background-image: -o-linear-gradient(bottom, #000000 70%, #1b1b1b 100%);
+  background-image: -moz-linear-gradient(bottom, #000000 70%, #1b1b1b 100%);
+  background-image: -webkit-linear-gradient(bottom, #000000 70%, #1b1b1b 100%);
+  background-image: -ms-linear-gradient(bottom, #000000 70%, #1b1b1b 100%);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 a {
   color: #edcaa6;
@@ -946,7 +944,7 @@ ul.horizontal li {
   padding: 0 0 0 .5em;
 }
 .container {
-  margin: 1em;
+  padding: 1em;
 }
 header .logo {
   text-align: center;
