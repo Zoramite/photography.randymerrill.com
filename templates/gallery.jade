@@ -1,5 +1,5 @@
 mixin gallery(count)
-  .gallery
+  section.gallery
     - for(i = 0; i < count; i++)
       .slide
-        img(src="image" + (i < 9 ? '0' : '') + (i + 1) + '.jpg', width="100%")
+        img(src="images/thumb" + (i < 9 ? '0' : '') + (i + 1) + '.jpg')
