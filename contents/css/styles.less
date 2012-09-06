@@ -1,5 +1,4 @@
 @import "common";
-@import "font";
 @import "colors";
 @import "zocial";
 
@@ -9,27 +8,18 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 h1, h2, h3, h4, h5, h6, p, blockquote, body { margin: 0; padding: 0; }
 
+html {
+  height: 100%
+}
+
 body {
-  font-family: 'Headland One', serif;
+  font-family: 'Telex', sans-serif;
   font-size: 12pt;
   line-height: 1.15em;
-  color: @colorBase;
+  color: @colorPrime;
   height: 100%;
-  background: @colorBackground;
+  .linear-gradient(@colorBackground, 60%, @colorBackgroundFade, 100%);
 }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Petra Script', cursive;
-  line-height: 1.5em;
-  font-weight: normal;
-}
-
-h1 { font-size: 3.5em; }
-h2 { font-size: 3em; }
-h3 { font-size: 2.5em; }
-h4 { font-size: 2em; }
-h5 { font-size: 1.5em; }
-h6 { font-size: 1em; }
 
 a {
   color: @colorLink;
@@ -44,6 +34,32 @@ a:focus {
 
 a img {
   border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Esteban', serif;
+  line-height: 1.5em;
+  font-weight: normal;
+  color: @colorSecondary;
+
+  a {
+    color: @colorSecondary;
+
+    &:hover {
+      color: lighten(@colorSecondary, 15%)
+    }
+  }
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.75em; }
+h3 { font-size: 1.6em; }
+h4 { font-size: 1.45em; }
+h5 { font-size: 1.3em; }
+h6 { font-size: 1.15em; }
+
+article {
+  margin-bottom: 1em;
 }
 
 p {
@@ -110,6 +126,16 @@ pre {
   }
 }
 
+table {
+  margin-bottom: 1em;
+
+  tr {
+    th {
+      text-align: left;
+    }
+  }
+}
+
 ul.horizontal {
   list-style: none;
   padding: 0;
@@ -129,6 +155,7 @@ ul.horizontal {
 header {
   .logo {
     text-align: center;
+    margin-bottom: 1em;
 
     img {
       width: 30%;
@@ -143,12 +170,27 @@ header {
   }
 
   .navigation {
-    background: @colorBackgroundFade;
+    overflow: hidden;
+    .border-radius();
 
     li {
       text-align: center;
+      font-weight: bold;
+      line-height: 2.25em;
       width: 25%;
-      line-height: 1.5em;
+      margin: 0;
+      padding: 0;
+
+      a {
+        color: @colorTertiary;
+        display: block;
+        .linear-gradient(@colorBackground, 0%, @colorBackgroundFade, 100%);
+
+        &:hover, &:focus {
+          text-decoration: none;
+          .linear-gradient(@colorBackgroundFade, 0%, @colorBackground, 100%);
+        }
+      }
     }
   }
 }

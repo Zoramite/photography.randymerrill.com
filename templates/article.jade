@@ -7,11 +7,9 @@ block content
   include author
 
   h2= page.title
-  p Written by: 
-    mixin author(page.metadata.author)
 
   article.post
-    section.content!= page.html
+    section!= page.html
   if page.metadata.gallery
     include gallery
 
