@@ -8,17 +8,14 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 p, blockquote, body { margin: 0; padding: 0; }
 
-html {
-  height: 100%
-}
-
 body {
   font-family: 'Telex', sans-serif;
   font-size: 12pt;
   line-height: 1.15em;
   color: @colorPrime;
-  height: 100%;
-  .linear-gradient(@colorBackground, 60%, @colorBackgroundFade, 100%);
+  .linear-gradient(@colorBackground, 70%, @colorBackgroundFade, 100%);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -151,7 +148,7 @@ ul.horizontal {
 }
 
 .container {
-  margin: 1em;
+  padding: 1em;
 }
 
 header {
