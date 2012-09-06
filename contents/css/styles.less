@@ -6,7 +6,10 @@
 @maxWidthThumb: 500px;
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-p, blockquote, body { margin: 0; padding: 0; }
+
+html{
+  height: 100%;
+}
 
 body {
   font-family: 'Telex', sans-serif;
@@ -14,9 +17,12 @@ body {
   line-height: 1.15em;
   color: @colorPrime;
   .linear-gradient(@colorBackground, 70%, @colorBackgroundFade, 100%);
-  background-size: 100%;
+  height: 100%;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
+
+p, blockquote, body { margin: 0; padding: 0; }
 
 a {
   color: @colorLink;
