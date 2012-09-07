@@ -1017,6 +1017,9 @@ section.preview img {
   margin-right: 1em;
   width: 300px;
 }
+section.content {
+  overflow: hidden;
+}
 section img {
   border-radius: 0.5em;
   -webkit-border-radius: 0.5em;
