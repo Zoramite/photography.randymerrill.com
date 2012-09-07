@@ -1029,6 +1029,10 @@ section img {
   clear: both;
   padding-top: 1.5em;
 }
+#content p {
+  min-width: 25em;
+  max-width: 33em;
+}
 .gallery {
   position: relative;
   width: 100%;
