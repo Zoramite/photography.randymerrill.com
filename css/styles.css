@@ -963,6 +963,14 @@ header .sharing {
   top: 1em;
   right: 1em;
 }
+header .contact {
+  position: absolute;
+  top: 4em;
+  right: 1em;
+}
+header .contact p {
+  font-size: 2em;
+}
 header .navigation {
   overflow: hidden;
   border-radius: 0.5em;
