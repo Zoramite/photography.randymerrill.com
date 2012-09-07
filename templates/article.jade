@@ -8,6 +8,12 @@ block content
 
   h2= page.title
 
+  p.posted Posted on 
+    mixin dateFormat(page.metadata.date) 
+    | by 
+    mixin author(page.metadata.author)
+    |.
+
   article.post
     section!= page.html
   if page.metadata.gallery
