@@ -6,6 +6,6 @@ tags: logo,marketing
 gallery: 1
 preview: 1
 
-Since I am committing to being a professional photographer, I decided it was time to have a professional looking logo.
+Since I am committed to being a professional photographer, I decided it was time to have a professional logo.
 
 After looking at hundreds of designs and revisions, this is the logo that I decided upon. Hope you enjoy it as much as I do!
