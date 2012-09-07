@@ -19,6 +19,8 @@ block content
           a(href=article.url)
             img(src=article.url + "images/thumb" + (article.metadata.preview < 9 ? '0' : '') + article.metadata.preview + ".jpg")
       section.content!= article.intro
+
       if article.hasMore
         p.read-more
           a(href=article.url) Read more...
+

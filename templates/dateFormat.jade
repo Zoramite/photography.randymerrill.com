@@ -1,0 +1,5 @@
+- months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+mixin dateFormat(theDate)
+  - theDate = new Date(theDate)
+  span.date(data-raw=theDate) #{theDate.getDate()} #{months[theDate.getMonth()]} #{theDate.getFullYear()}
