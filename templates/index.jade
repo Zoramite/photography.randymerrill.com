@@ -20,14 +20,13 @@ block content
         h2
           a(href=article.url)= article.title
       
-      section.content!= article.intro
+      section.content !{ article.intro }
+        if article.hasMore
+          p.read-more
+           a(href=article.url) Read more...
 
-      if article.hasMore
-        p.read-more
-          a(href=article.url) Read more...
-
-      p.posted Posted on 
-        mixin dateFormat(article.metadata.date) 
-        | by 
-        mixin author(article.metadata.author)
-        | .
+        p.posted Posted on 
+          mixin dateFormat(article.metadata.date) 
+          | by 
+          mixin author(article.metadata.author)
+          | .
