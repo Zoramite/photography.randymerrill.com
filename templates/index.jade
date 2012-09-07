@@ -14,7 +14,11 @@ block content
       header
         h2
           a(href=article.url)= article.title
+      if article.metadata.preview
+        section.preview
+          a(href=article.url)
+            img(src=article.url + "images/thumb" + (article.metadata.preview < 9 ? '0' : '') + article.metadata.preview + ".jpg")
       section.content!= article.intro
       if article.hasMore
         p.read-more
-          a(href=article.url) read more
+          a(href=article.url) Read more...

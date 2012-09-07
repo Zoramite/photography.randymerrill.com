@@ -4,6 +4,7 @@ date: 2012-06-03 12:00
 template: article.jade
 tags: infant
 gallery: 10
+preview: 1
 
 I was visited this morning by a pink bear for an impromptu shoot. 
 
