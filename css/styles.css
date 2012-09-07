@@ -797,7 +797,7 @@ body {
   font-size: 12pt;
   line-height: 1.15em;
   color: #faf0e6;
-  background: #1b1b1b;
+  background: #000000;
   background-image: linear-gradient(bottom, #000000 70%, #1b1b1b 100%);
   background-image: -o-linear-gradient(bottom, #000000 70%, #1b1b1b 100%);
   background-image: -moz-linear-gradient(bottom, #000000 70%, #1b1b1b 100%);
@@ -989,7 +989,7 @@ header .navigation li {
 header .navigation li a {
   color: #a7a8aa;
   display: block;
-  background: #1b1b1b;
+  background: #000000;
   background-image: linear-gradient(bottom, #000000 0%, #1b1b1b 100%);
   background-image: -o-linear-gradient(bottom, #000000 0%, #1b1b1b 100%);
   background-image: -moz-linear-gradient(bottom, #000000 0%, #1b1b1b 100%);
@@ -999,7 +999,7 @@ header .navigation li a {
 header .navigation li a:hover,
 header .navigation li a:focus {
   text-decoration: none;
-  background: #000000;
+  background: #1b1b1b;
   background-image: linear-gradient(bottom, #1b1b1b 0%, #000000 100%);
   background-image: -o-linear-gradient(bottom, #1b1b1b 0%, #000000 100%);
   background-image: -moz-linear-gradient(bottom, #1b1b1b 0%, #000000 100%);
