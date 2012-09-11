@@ -1,7 +1,7 @@
 (function($, _gaq){
-	$(functon() {
+	$(function() {
 		// Add event tracking handlers
-		$('[data-category]').click(function() {
+		$('[data-category]').on('click', function() {
 			var data = $(this).data();
 
 			_gaq.push(['_trackEvent', data.category, data.action, data.value]);
