@@ -7,6 +7,7 @@
     <link rel="alternate" href="/feed.xml" type="application/rss+xml" title="">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro|Quattrocento">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/jquery.fancybox.css">
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-34394854-3']);
@@ -57,30 +58,7 @@
 </p>
 </section>
         </article>
-                <section class="gallery">
-                  <div class="slide"><img src="images/thumb01.jpg"></div>
-                  <div class="slide"><img src="images/thumb02.jpg"></div>
-                  <div class="slide"><img src="images/thumb03.jpg"></div>
-                  <div class="slide"><img src="images/thumb04.jpg"></div>
-                  <div class="slide"><img src="images/thumb05.jpg"></div>
-                  <div class="slide"><img src="images/thumb06.jpg"></div>
-                  <div class="slide"><img src="images/thumb07.jpg"></div>
-                  <div class="slide"><img src="images/thumb08.jpg"></div>
-                  <div class="slide"><img src="images/thumb09.jpg"></div>
-                  <div class="slide"><img src="images/thumb10.jpg"></div>
-                  <div class="slide"><img src="images/thumb11.jpg"></div>
-                  <div class="slide"><img src="images/thumb12.jpg"></div>
-                  <div class="slide"><img src="images/thumb13.jpg"></div>
-                  <div class="slide"><img src="images/thumb14.jpg"></div>
-                  <div class="slide"><img src="images/thumb15.jpg"></div>
-                  <div class="slide"><img src="images/thumb16.jpg"></div>
-                  <div class="slide"><img src="images/thumb17.jpg"></div>
-                  <div class="slide"><img src="images/thumb18.jpg"></div>
-                  <div class="slide"><img src="images/thumb19.jpg"></div>
-                  <div class="slide"><img src="images/thumb20.jpg"></div>
-                  <div class="slide"><img src="images/thumb21.jpg"></div>
-                  <div class="slide"><img src="images/thumb22.jpg"></div>
-                  <div class="slide"><img src="images/thumb23.jpg"></div>
+                <section class="gallery"><a href="images/image01.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb01.jpg"></a><a href="images/image02.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb02.jpg"></a><a href="images/image03.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb03.jpg"></a><a href="images/image04.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb04.jpg"></a><a href="images/image05.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb05.jpg"></a><a href="images/image06.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb06.jpg"></a><a href="images/image07.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb07.jpg"></a><a href="images/image08.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb08.jpg"></a><a href="images/image09.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb09.jpg"></a><a href="images/image10.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb10.jpg"></a><a href="images/image11.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb11.jpg"></a><a href="images/image12.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb12.jpg"></a><a href="images/image13.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb13.jpg"></a><a href="images/image14.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb14.jpg"></a><a href="images/image15.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb15.jpg"></a><a href="images/image16.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb16.jpg"></a><a href="images/image17.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb17.jpg"></a><a href="images/image18.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb18.jpg"></a><a href="images/image19.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb19.jpg"></a><a href="images/image20.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb20.jpg"></a><a href="images/image21.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb21.jpg"></a><a href="images/image22.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb22.jpg"></a><a href="images/image23.jpg" data-fancybox-group="gallery" class="slide"><img src="images/thumb23.jpg"></a>
                 </section>
       </div>
       <footer>
@@ -92,6 +70,10 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
     <script src="/scripts/jquery.freetile.js"></script>
     <script src="/scripts/jquery.site.js"></script>
-    <script>$('.gallery').freetile();</script>
+    <script src="/scripts/jquery.fancybox.js"></script>
+    <script>
+      $('.slide').fancybox();
+      
+    </script>
   </body>
 </html>
