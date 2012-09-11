@@ -28,6 +28,10 @@ Additional prints may be purchased after the session, À la carte.
 
 Don't see your situation listed above? Call [435.363.4780][tel] for details and to arrange a custom appointment.
 
+## Discounts
+
+  * All Military members recieve a 20% discount.
+
 ## À la carte product pricing
 
 ### Prints
