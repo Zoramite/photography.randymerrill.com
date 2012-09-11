@@ -2,6 +2,14 @@ extends layout
 
 block prepend title
   | #{ page.title } - 
+
+block append styles
+  link(rel='stylesheet', href='/css/jquery.fancybox.css')
+
+block append scripts
+  script(src="/scripts/jquery.fancybox.js")
+  script
+    $('.slide').fancybox();
   
 block content
   include author

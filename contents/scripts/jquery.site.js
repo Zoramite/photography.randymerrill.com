@@ -6,5 +6,8 @@
 
 			_gaq.push(['_trackEvent', data.category, data.action, data.value]);
 		});
+
+		// Start freetile
+		$('.gallery').freetile();
 	});
 }(jQuery, _gaq || []));

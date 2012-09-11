@@ -1,5 +1,7 @@
-mixin gallery(count)
+mixin gallery(count, group)
+  - group = group || 'gallery'
+
   section.gallery
     - for(i = 0; i < count; i++)
-      .slide
+      a.slide(href="images/image" + (i < 9 ? '0' : '') + (i + 1) + '.jpg', data-fancybox-group=group)
         img(src="images/thumb" + (i < 9 ? '0' : '') + (i + 1) + '.jpg')
