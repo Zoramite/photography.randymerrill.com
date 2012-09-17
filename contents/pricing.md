@@ -30,7 +30,7 @@ Don't see your situation listed above? Call [435.363.4780][tel] for details and 
 
 ## Discounts
 
-  * All Military members recieve a 20% discount.
+  * All Military members recieve a 20% sitting fee discount.
 
 ## À la carte product pricing
 
