@@ -21,3 +21,4 @@ For those who are interested in what gear I use to take my photos, here is my ge
 ### Accessories
 
  *  [Custom SLR Camera Glide Strap & C-Loop](http://www.amazon.com/gp/product/B00877PSIC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00877PSIC&linkCode=as2&tag=m0676-20)
+ *  [GorillaPod Focus with Ballhead X](http://www.amazon.com/gp/product/B003II3FD0/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003II3FD0&linkCode=as2&tag=m0676-20)
