@@ -17,3 +17,7 @@ For those who are interested in what gear I use to take my photos, here is my ge
  *  [8" Octagon Softbox](http://www.amazon.com/gp/product/B006NYJNTG/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B006NYJNTG&linkCode=as2&tag=m0676-20)
  *  [42" 5-in-1 Reflector](http://www.amazon.com/gp/product/B003Y2KC7W/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003Y2KC7W&linkCode=as2&tag=m0676-20)
  *  [42" Umbrella Softbox](http://www.amazon.com/gp/product/B0055E6TY2/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0055E6TY2&linkCode=as2&tag=m0676-20)
+
+### Accessories
+
+ *  [Custom SLR Camera Glide Strap & C-Loop](http://www.amazon.com/gp/product/B00877PSIC/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00877PSIC&linkCode=as2&tag=m0676-20)
