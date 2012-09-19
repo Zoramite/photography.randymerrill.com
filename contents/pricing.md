@@ -1,28 +1,49 @@
 title: Pricing
 template: layout.jade
 
-## Portrait and Family Sessions
+## Portrait and Family Full Sessions
 
-Each portrait and family session comes with a basic photo package:
+Each full portrait and family session comes with a basic photo package:
 
-  * **1** - 8x10 (or 8x12) Print
-  * **4** - 5x7 Prints
+  * **2** - 8x12 (or 8x10) Print
+  * **5** - 5x7 Prints
 
 Additional prints may be purchased after the session, À la carte.
 
-### 1 Person
+### 1 Person Full Session
 
-  * $200 Sitting Fee
+  * $225
   * 1 Hour
   * 1 Location
   * Additional 30 minute blocks available at $75 per 30 minutes
 
-### 2 to 4 People
+### 2 to 4 People Full Session
 
-  * $300 Sitting Fee
+  * $300
   * 1 Hour
   * 1 Location
   * Additional 30 minute blocks available at $100 per 30 minutes
+
+## Portrait and Family Mini Sessions
+
+Each mini portrait and family session comes with a basic photo package:
+
+  * **1** - 8x12 (or 8x10) Print
+  * **3** - 5x7 Prints
+
+Additional prints may be purchased after the session, À la carte.
+
+### 1 Person Mini Session
+
+  * $90
+  * 30 Minutes
+  * 1 Location
+
+### 2 to 4 People Mini Session
+
+  * $130
+  * 30 Minutes
+  * 1 Location
 
 ## Custom Appointments
 
@@ -30,7 +51,7 @@ Don't see your situation listed above? Call [435.363.4780][tel] for details and 
 
 ## Discounts
 
-  * All Military members recieve a 20% sitting fee discount.
+  * All Military members recieve a 20% session discount.
 
 ## À la carte product pricing
 
