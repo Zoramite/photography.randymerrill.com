@@ -12,14 +12,14 @@ Additional prints may be purchased after the session, À la carte.
 
 ### 1 Person Full Session
 
-  * $225
+  * **$225**
   * 1 Hour
   * 1 Location
   * Additional 30 minute blocks available at $75 per 30 minutes
 
 ### 2 to 4 People Full Session
 
-  * $300
+  * **$300**
   * 1 Hour
   * 1 Location
   * Additional 30 minute blocks available at $100 per 30 minutes
@@ -35,25 +35,25 @@ Additional prints may be purchased after the session, À la carte.
 
 ### 1 Person Mini Session
 
-  * $90
+  * **$90**
   * 30 Minutes
   * 1 Location
 
 ### 2 to 4 People Mini Session
 
-  * $130
+  * **$130**
   * 30 Minutes
   * 1 Location
 
-## Custom Appointments
+## Custom Sessions
 
-Don't see your situation listed above? Call [435.363.4780][tel] for details and to arrange a custom appointment.
+Don't see your situation listed above? Call [435.363.4780][tel] for details and to arrange a custom session.
 
 ## Discounts
 
   * All Military members recieve a 20% session discount.
 
-## À la carte product pricing
+## À la carte pricing
 
 ### Prints
 
