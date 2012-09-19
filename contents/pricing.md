@@ -116,7 +116,7 @@ Don't see your situation listed above? Call [435.363.4780][tel] for details and 
 	</thead>
 	<tbody>
 		<tr>
-			<td>$250</td>
+			<td>$100</td>
 			<td>Photo CD/DVD with printing rights.</td>
 		</tr>
 	</tbody>
