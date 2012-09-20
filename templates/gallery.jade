@@ -3,5 +3,5 @@ mixin gallery(count, group)
 
   section.gallery
     - for(i = 0; i < count; i++)
-      a.slide(href="images/image" + (i < 9 ? '0' : '') + (i + 1) + '.jpg', data-fancybox-group=group)
+      a.slide.fresco(href="images/image" + (i < 9 ? '0' : '') + (i + 1) + '.jpg', data-fresco-group=group, data-fresco-group-options="ui: 'inside'")
         img(src="images/thumb" + (i < 9 ? '0' : '') + (i + 1) + '.jpg')

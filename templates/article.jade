@@ -4,12 +4,10 @@ block prepend title
   | #{ page.title } - 
 
 block append styles
-  link(rel='stylesheet', href='/css/jquery.fancybox.css')
+  link(rel='stylesheet', href='/css/fresco.css')
 
 block append scripts
-  script(src="/scripts/jquery.fancybox.js")
-  script
-    $('.slide').fancybox();
+  script(src="/scripts/fresco.js")
   
 block content
   include author
