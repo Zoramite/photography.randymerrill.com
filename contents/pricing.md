@@ -52,6 +52,7 @@ Don't see your situation listed above? Call [435.363.4780][tel] for details and 
 ## Discounts
 
   * All Military members recieve a 20% session discount.
+  * Coupons for mini sessions can also be used for full sessions and custom sessions.
 
 ## À la carte pricing
 
