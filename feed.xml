@@ -48,19 +48,6 @@
 </description>
     </item>
     <item>
-      <title>Bears Come In Pink Too!</title>
-      <link>http://photography.randymerrill.com/articles/bear-in-pink/</link>
-      <pubDate>Sun, 03 Jun 2012 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">http://photography.randymerrill.com/articles/bear-in-pink/</guid>
-      <author></author>
-      <description>&lt;p&gt;I was visited this morning by a pink bear for an impromptu shoot. 
-
-&lt;/p&gt;
-&lt;p&gt;How can you say &quot;no&quot; to that face?
-&lt;/p&gt;
-</description>
-    </item>
-    <item>
       <title>Light Painting: I</title>
       <link>http://photography.randymerrill.com/articles/light-painting-i/</link>
       <pubDate>Fri, 17  Aug 2012 18:00:00 -0700</pubDate>
@@ -91,39 +78,70 @@
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
 
 &lt;/p&gt;
-&lt;h2&gt;Package #1 - 1 Winner&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Value: ~$150&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Valid with &lt;strong&gt;Full&lt;/strong&gt; Session Only&lt;/li&gt;
-&lt;li&gt;½ Off Press Printed Album (up to $100)&lt;/li&gt;
-&lt;li&gt;1 Free 16x20 Standout Print&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Package #2 - 1 Winner&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Value: ~$110&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Valid with &lt;strong&gt;Full&lt;/strong&gt; Session Only&lt;/li&gt;
-&lt;li&gt;½ Off Framed Print (up to $75)&lt;/li&gt;
-&lt;li&gt;2 Free 16x20 Print&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Package #3 - 2 Winners&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Value: ~$70&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Valid with &lt;strong&gt;Mini&lt;/strong&gt; or &lt;strong&gt;Full&lt;/strong&gt; Session&lt;/li&gt;
-&lt;li&gt;1 Free 16x20 Standout Print&lt;/li&gt;
-&lt;li&gt;1 Free 16x20 Print&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Package #4 - 2 Winners&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Value: ~$55&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Valid with &lt;strong&gt;Mini&lt;/strong&gt; or &lt;strong&gt;Full&lt;/strong&gt; Session&lt;/li&gt;
-&lt;li&gt;3 Free Accordian Mini Books&lt;/li&gt;
-&lt;li&gt;2 Free 16x20 Prints&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Entry Form&lt;/h2&gt;
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;half&quot;&gt;
+        &lt;h3&gt;Package #1 - 1 Winner&lt;/h3&gt;
+
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;Value: ~$150&lt;/strong&gt;&lt;/li&gt;
+            &lt;li&gt;Valid with &lt;strong&gt;Full&lt;/strong&gt; Session Only&lt;/li&gt;
+            &lt;li&gt;½ Off Press Printed Album &lt;em&gt;(up to $100)&lt;/em&gt;&lt;/li&gt;
+            &lt;li&gt;1 Free 16x20 Standout Print&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;half&quot;&gt;
+        &lt;h3&gt;Package #2 - 1 Winner&lt;/h3&gt;
+
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;Value: ~$110&lt;/strong&gt;&lt;/li&gt;
+            &lt;li&gt;Valid with &lt;strong&gt;Full&lt;/strong&gt; Session Only&lt;/li&gt;
+            &lt;li&gt;½ Off Framed Print (up to $75)&lt;/li&gt;
+            &lt;li&gt;2 Free 16x20 Print&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;half&quot;&gt;
+        &lt;h3&gt;Package #3 - 2 Winners&lt;/h3&gt;
+
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;Value: ~$70&lt;/strong&gt;&lt;/li&gt;
+            &lt;li&gt;Valid with &lt;strong&gt;Full&lt;/strong&gt; or &lt;strong&gt;Mini&lt;/strong&gt; Sessions&lt;/li&gt;
+            &lt;li&gt;1 Free 16x20 Standout Print&lt;/li&gt;
+            &lt;li&gt;1 Free 16x20 Print&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;half&quot;&gt;
+        &lt;h3&gt;Package #4 - 2 Winners&lt;/h3&gt;
+
+        &lt;ul&gt;
+            &lt;li&gt;&lt;strong&gt;Value: ~$55&lt;/strong&gt;&lt;/li&gt;
+            &lt;li&gt;Valid with &lt;strong&gt;Full&lt;/strong&gt; or &lt;strong&gt;Mini&lt;/strong&gt; Sessions&lt;/li&gt;
+            &lt;li&gt;3 Free Accordian Mini Books&lt;/li&gt;
+            &lt;li&gt;2 Free 16x20 Prints&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Entry Form&lt;/h3&gt;
 &lt;p&gt;Fill out this form before October 15th to enter the giveaway:
 
 &lt;/p&gt;
-&lt;iframe src=&quot;https://docs.google.com/a/randymerrill.com/spreadsheet/embeddedform?formkey=dEtlZW5HNDlNbzdpNkdCVFBiZkxCbUE6MQ&quot; width=&quot;90%&quot; height=&quot;720&quot; frameborder=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot;&gt;Loading...&lt;/iframe&gt;
+&lt;iframe src=&quot;https://docs.google.com/a/randymerrill.com/spreadsheet/embeddedform?formkey=dEtlZW5HNDlNbzdpNkdCVFBiZkxCbUE6MQ&quot; style=&quot;width: 100%; height: 730px;&quot; frameborder=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot;&gt;Loading...&lt;/iframe&gt;
+</description>
+    </item>
+    <item>
+      <title>Bears Come In Pink Too!</title>
+      <link>http://photography.randymerrill.com/articles/bear-in-pink/</link>
+      <pubDate>Sun, 03 Jun 2012 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">http://photography.randymerrill.com/articles/bear-in-pink/</guid>
+      <author></author>
+      <description>&lt;p&gt;I was visited this morning by a pink bear for an impromptu shoot. 
+
+&lt;/p&gt;
+&lt;p&gt;How can you say &quot;no&quot; to that face?
+&lt;/p&gt;
 </description>
     </item>
   </channel>
