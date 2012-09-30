@@ -11,22 +11,24 @@ block content
   - }).first(5).value() // and finally take the first 5
   each article in articles
     article.post
-      if article.metadata.preview
-        section.preview
-          a(href=article.url)
-            img(src=article.url + "images/thumb" + (article.metadata.preview < 9 ? '0' : '') + article.metadata.preview + ".jpg")
-      
-      header
-        h2
-          a(href=article.url)= article.title
-      
-      section.content !{ article.intro }
-        if article.hasMore
-          p.read-more
-           a(href=article.url) Read more...
+      .row
+        if article.metadata.preview
+          .third
+            figure.preview
+              a(href=article.url)
+                img(src=article.url + "images/thumb" + (article.metadata.preview < 9 ? '0' : '') + article.metadata.preview + ".jpg")
 
-        p.posted Posted on 
-          mixin dateFormat(article.metadata.date) 
-          | by 
-          mixin author(article.metadata.author)
-          | .
+        .twothird
+          h2
+            a(href=article.url)= article.title
+          
+          .content !{ article.intro }
+            if article.hasMore
+              p.read-more
+               a(href=article.url) Read more...
+
+            p.posted Posted on 
+              mixin dateFormat(article.metadata.date) 
+              | by 
+              mixin author(article.metadata.author)
+              | .

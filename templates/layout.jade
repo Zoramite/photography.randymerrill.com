@@ -8,7 +8,7 @@ html(lang='en')
           = locals.name
       link(rel='alternate', href='/feed.xml', type='application/rss+xml', title=locals.description)
       link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Source+Sans+Pro|Quattrocento')
-      link(rel='stylesheet', href='/css/styles.css')
+      link(rel='stylesheet', href='/css/site.css')
       block styles
 
       script(type="text/javascript")
@@ -26,34 +26,32 @@ html(lang='en')
     include author
     include dateFormat
 
-    .container
+    .wrapper
       header
         .logo
           a(href="/")
             img(src="/images/RMPhotography.png", title="Randy Merrill Photography")
-        .sharing
+        nav.row
           ul.horizontal
-            li: a.zocial.icon.googleplus(href="https://plus.google.com/114870301499667220446", data-category="link", data-action="click", data-value="Google+") On Google+
-            li: a.zocial.icon.facebook(href="https://www.facebook.com/Randy.Merrill.Photography", data-category="link", data-action="click", data-value="Facebook") On Facebook
-            li: a.zocial.icon.flickr(href="http://www.flickr.com/photos/zoramite/", data-category="link", data-action="click", data-value="Flickr") On Flickr
-            li: a.zocial.icon.rss(href="/feed.xml", data-category="link", data-action="click", data-value="RSS") Subscribe to RSS
-        .contact
-          p: a(href="tel:14353634780", data-category="link", data-action="click", data-value="Telephone") 435.363.4780
-        .navigation
-          ul.horizontal
-            li: a(href="/") Home
-            li: a(href="/archive.html") Archives
-            li: a(href="/appointment.html") Appointments
-            li: a(href="/gear.html") Gear
-            li: a(href="/pricing.html") Pricing
+            li.fifth: a(href="/") Home
+            li.fifth: a(href="/archive.html") Archives
+            li.fifth: a(href="/appointment.html") Appointments
+            li.fifth: a(href="/gear.html") Gear
+            li.fifth: a(href="/pricing.html") Pricing
       #content
         block content
           section!= page.html
       footer
-        div.inner
-          block footer
-            p &copy; #{ new Date().getFullYear() } 
+        .row
+          .third.sharing
+            a.zocial.icon.googleplus(href="https://plus.google.com/114870301499667220446", data-category="link", data-action="click", data-value="Google+") On Google+
+            a.zocial.icon.facebook(href="https://www.facebook.com/Randy.Merrill.Photography", data-category="link", data-action="click", data-value="Facebook") On Facebook
+            a.zocial.icon.flickr(href="http://www.flickr.com/photos/zoramite/", data-category="link", data-action="click", data-value="Flickr") On Flickr
+            a.zocial.icon.rss(href="/feed.xml", data-category="link", data-action="click", data-value="RSS") Subscribe to RSS
+          .third &copy; #{ new Date().getFullYear() } 
               a(href="#{ locals.url }") Randy Merrill Photography
+          .third
+            a(href="tel:14353634780", data-category="link", data-action="click", data-value="Telephone") 435.363.4780
     script(src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js")
     script(src="/scripts/jquery.freetile.js")
     script(src="/scripts/jquery.site.js")

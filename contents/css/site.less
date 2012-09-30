@@ -1,0 +1,175 @@
+@import "common";
+@import "zocial";
+@import "kube/kube.less";
+@import "colors";
+
+@minWidth: 300px;
+@maxWidthThumb: 500px;
+
+html{
+  height: 100%;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.15em;
+  font-size: 12pt;
+  color: @colorPrime;
+  .linear-gradient(@colorBackground, 70%, @colorBackgroundFade, 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+a {
+  color: @colorLinks;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: @colorLinksHover;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quattrocento', serif;
+  font-weight: normal;
+  color: @colorSecondary;
+  margin: .75em 0 .3em 0;
+  padding: 0;
+
+  a {
+    color: @colorSecondary;
+
+    &:hover {
+      color: lighten(@colorSecondary, 15%)
+    }
+  }
+}
+
+article {
+  margin-bottom: 1em;
+  clear: both;
+  
+  img {
+    .border-radius();
+  }
+
+  .preview {
+    img {
+      width: 100%;
+      max-width: @maxWidthThumb;
+    }
+  }
+
+  p {
+    min-width: 25em;
+    max-width: 33em;
+  }
+}
+
+table {
+  margin-bottom: 1em;
+
+  tr {
+    th {
+      text-align: left;
+    }
+  }
+}
+
+nav {
+  ul.horizontal {
+  	margin: 0;
+    list-style: none;	
+
+    li {
+    	padding: 0;
+    	margin: 0;
+
+    	a {
+    	  display: block;
+    	}
+    }
+  }
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 1000px;
+  padding: 1em;
+}
+
+header {
+  .logo {
+    text-align: center;
+    padding: 1em;
+
+    img {
+      width: 50%;
+      min-width: @minWidth;
+    }
+  }
+
+  nav {
+  	.border-radius();
+
+    ul {
+      font-family: 'Quattrocento', serif;
+
+      li {
+        text-align: center;
+        font-weight: bold;
+        line-height: 2.25em;
+
+        a {
+          color: @colorTertiary;
+          display: block;
+          .linear-gradient(@colorBackground, 0%, @colorBackgroundFade, 100%);
+
+          &:hover, &:focus {
+            text-decoration: none;
+            .linear-gradient(@colorBackgroundFade, 0%, @colorBackground, 100%);
+          }
+        }
+      }
+  	}
+  }
+}
+
+.content {
+  overflow: hidden;
+}
+
+.gallery {
+  .slide {
+    padding: .25em;
+    width: 25%;	
+    min-width: @minWidth;
+    max-width: @maxWidthThumb;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.posted {
+  color: @colorTertiary;
+  font-size: .8em;
+}
+
+footer {
+  clear: both;
+  color: @colorTertiary;
+  text-align: center;
+
+  .sharing {
+  	font-size: .75em;
+
+    a {
+      margin: 0 .5em;
+    }
+  }
+}

@@ -11,36 +11,54 @@ To celebrate, I am giving away these awesome coupon packages that are sure to br
 
 <span class="more"></span>
 
-## Package #1 - 1 Winner
+<div class="row">
+	<div class="half">
+		<h3>Package #1 - 1 Winner</h3>
 
- *  **Value: ~$150**
- *  Valid with **Full** Session Only
- *  ½ Off Press Printed Album (up to $100)
- *  1 Free 16x20 Standout Print
+		<ul>
+			<li><strong>Value: ~$150</strong></li>
+			<li>Valid with <strong>Full</strong> Session Only</li>
+			<li>½ Off Press Printed Album <em>(up to $100)</em></li>
+			<li>1 Free 16x20 Standout Print</li>
+		</ul>
+	</div>
+	<div class="half">
+		<h3>Package #2 - 1 Winner</h3>
 
-## Package #2 - 1 Winner
+		<ul>
+			<li><strong>Value: ~$110</strong></li>
+			<li>Valid with <strong>Full</strong> Session Only</li>
+			<li>½ Off Framed Print (up to $75)</li>
+			<li>2 Free 16x20 Print</li>
+		</ul>
+	</div>
+</div>
 
- *  **Value: ~$110**
- *  Valid with **Full** Session Only
- *  ½ Off Framed Print (up to $75)
- *  2 Free 16x20 Print
+<div class="row">
+	<div class="half">
+		<h3>Package #3 - 2 Winners</h3>
 
-## Package #3 - 2 Winners
+		<ul>
+			<li><strong>Value: ~$70</strong></li>
+			<li>Valid with <strong>Full</strong> or <strong>Mini</strong> Sessions</li>
+			<li>1 Free 16x20 Standout Print</li>
+			<li>1 Free 16x20 Print</li>
+		</ul>
+	</div>
+	<div class="half">
+		<h3>Package #4 - 2 Winners</h3>
 
- *  **Value: ~$70**
- *  Valid with **Mini** or **Full** Session
- *  1 Free 16x20 Standout Print
- *  1 Free 16x20 Print
+		<ul>
+			<li><strong>Value: ~$55</strong></li>
+			<li>Valid with <strong>Full</strong> or <strong>Mini</strong> Sessions</li>
+			<li>3 Free Accordian Mini Books</li>
+			<li>2 Free 16x20 Prints</li>
+		</ul>
+	</div>
+</div>
 
-## Package #4 - 2 Winners
-
- *  **Value: ~$55**
- *  Valid with **Mini** or **Full** Session
- *  3 Free Accordian Mini Books
- *  2 Free 16x20 Prints
-
-## Entry Form
+### Entry Form
 
 Fill out this form before October 15th to enter the giveaway:
 
-<iframe src="https://docs.google.com/a/randymerrill.com/spreadsheet/embeddedform?formkey=dEtlZW5HNDlNbzdpNkdCVFBiZkxCbUE6MQ" width="90%" height="720" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/a/randymerrill.com/spreadsheet/embeddedform?formkey=dEtlZW5HNDlNbzdpNkdCVFBiZkxCbUE6MQ" style="width: 100%; height: 730px;" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
