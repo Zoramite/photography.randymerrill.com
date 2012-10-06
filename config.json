@@ -7,6 +7,6 @@
     "index_articles": 3
   },
   "plugins": [
-  	"wintersmith-less"
+    "wintersmith-less"
   ]
 }
