@@ -1,7 +1,16 @@
 mixin gallery(count, group)
-  - group = group || 'gallery'
+  - var group = group || 'gallery'
+  - var countLen = (count + '').length
 
   section.gallery
+    - var lastLen = 0
+    - var zeroFill = ''
     - for(i = 0; i < count; i++)
-      a.slide.fresco(href="images/image" + (i < 9 ? '0' : '') + (i + 1) + '.jpg', data-fresco-group=group, data-fresco-group-options="ui: 'inside'")
-        img(src="images/thumb" + (i < 9 ? '0' : '') + (i + 1) + '.jpg')
+      - var iLen = ((i  + 1)+ '').length
+      - if(iLen != lastLen)
+        - lastLen = iLen
+        - zeroFill = ''
+        - for(j = 0; j < (countLen - lastLen); j++)
+          - zeroFill += '0'
+      a.slide.fresco(href="images/image" + zeroFill + (i + 1) + '.jpg', data-fresco-group=group, data-fresco-group-options="ui: 'inside'")
+        img(src="images/thumb" + zeroFill + (i + 1) + '.jpg')
