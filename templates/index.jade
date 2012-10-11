@@ -4,6 +4,7 @@ block content
   //- underscore helps us filter and sort our articles
   - var articles = _.chain(contents.articles._.directories).map(function(item) {
   -   // map articles to index pages of subdirectories of 'articles'
+  -   console.log(item.index);
   -   return item.index
   - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
   -   // sort them by date
@@ -16,17 +17,14 @@ block content
           .third
             figure.preview
               a(href=article.url)
-                img(src=article.url + "images/thumb" + (article.metadata.preview < 9 ? '0' : '') + article.metadata.preview + ".jpg")
-
+                img(src=article.url + "images/thumb" + article.metadata.preview + ".jpg")
         .twothird
           h2
             a(href=article.url)= article.title
-          
           .content !{ article.intro }
             if article.hasMore
               p.read-more
                a(href=article.url) Read more...
-
             p.posted Posted on 
               mixin dateFormat(article.metadata.date) 
               | by 

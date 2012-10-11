@@ -4,7 +4,7 @@ date: 2012-09-01 20:00
 template: article.jade
 tags: logo,marketing
 gallery: 1
-preview: 1
+preview: 01
 
 Since I am committed to being a professional photographer, I decided it was time to have a professional logo.
 

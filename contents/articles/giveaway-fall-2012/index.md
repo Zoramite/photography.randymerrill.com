@@ -3,7 +3,7 @@ author: randy-merrill
 date: 2012-09-27 23:00
 template: article.jade
 tags: giveaway,marketing
-preview: 1
+preview: 01
 
 Even though the weather is starting to cool down it is a prime time for taking family holiday portraits!
 

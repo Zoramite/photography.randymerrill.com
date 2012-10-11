@@ -7,13 +7,13 @@ mixin pagination(url, count, onPage, perPage)
   if count <= perPage
     return
 
-  - url = url.replace(/index([0-9]*).html/, '')
+  - url = url.replace(/(index|page)([0-9]*).html/, '')
 
   .row
     ul.pagination
       if onPage > 1
-        li: a(href=(url + 'index' + (onPage == 2 ? '' : onPage - 1) + '.html')) &laquo; Previous
+        li: a(href=(url + (onPage == 2 ? 'index' : 'page' + (onPage - 1)) + '.html')) &laquo; Previous
       - for(i = 0; i < pages; i++)
-        li: a(href=(url + 'index' + (i <= 0 ? '' : i + 1) + '.html'), class=(i + 1 == onPage ? 'selected' : '')) #{i + 1}
+        li: a(href=(url + (i == 0 ? 'index' : 'page') + (i <= 0 ? '' : i + 1) + '.html'), class=(i + 1 == onPage ? 'selected' : '')) #{i + 1}
       if onPage < pages
-        li: a(href=(url + 'index' + (onPage + 1) + '.html')) &raquo; Next
+        li: a(href=(url + 'page' + (onPage + 1) + '.html')) &raquo; Next
