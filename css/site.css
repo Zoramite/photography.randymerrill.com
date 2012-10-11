@@ -2218,18 +2218,48 @@ header nav ul li a:focus {
 .content {
   overflow: hidden;
 }
+.walletGallery .slide,
 .gallery .slide {
   padding: .25em;
   width: 25%;
   min-width: 300px;
   max-width: 500px;
 }
+.walletGallery .slide img,
 .gallery .slide img {
   width: 100%;
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.walletGallery select {
+  margin-bottom: 1em;
 }
 .posted {
   color: #a7a8aa;
   font-size: .8em;
+}
+.pagination {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.pagination li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pagination li a {
+  display: block;
+  padding: .5em;
+}
+.pagination li a.selected {
+  font-weight: bold;
+  background: #222;
 }
 footer {
   clear: both;
@@ -2241,4 +2271,10 @@ footer .sharing {
 }
 footer .sharing a {
   margin: 0 .5em;
+}
+td.googlecart-widget-checkout {
+  min-width: 160px;
+}
+td.googlecart-widget-image-column {
+  min-width: 40px;
 }
