@@ -7,7 +7,7 @@ gallery: 400
 preview: 386
 onPage: 1
 
-In celebration of the 65th anniversary of the US Air Force, the Vandenberg Air Force Base hosted an anniversary ball on the 5th of October at the Pacific Coast Club.
+In celebration of the 65th anniversary of the US Air Force, Vandenberg Air Force Base hosted an anniversary ball on the 5th of October at the Pacific Coast Club.
 
 <span class="more"></span>
 
@@ -15,9 +15,9 @@ Guests of the event started the night with a customary cocktail hour. Dinner chi
 
 The dinner was preceded by the traditional dinner toasts and an exemplary MIA/POW tribute by the Vandenberg Honor Guard. To add some extra flair to the event, the most senior and junior airmen cut an Air Force birthday cake using a saber.
 
-The real treat of the night was to hear the banty remarks of General (Ret) Lance W. Lord, previous Commander of the 30th Space Wing and Western range (1993-1995).
+The real treat of the night was guest speaker, General (Ret) Lance W. Lord—previous Commander of the 30th Space Wing and Western Range (1993-1995) and Air Force Space Command. His thoughts on leadership were inspiring to all.
 
-In honor of General (Ret) Lord, a donation of $500 was made to the [Susan G Komen for the cure][komen].
+In honor of General (Ret) Lord and his wife, a donation of $500 was made to the [Susan G Komen for the cure][komen].
 
 To crown the ball, a live band performed while guests danced the night away. And dance they did!
 
