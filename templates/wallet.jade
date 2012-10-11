@@ -8,7 +8,7 @@ block append styles
 
 block append scripts
   script(src="/scripts/fresco.js")
-  script(id="googlecart-script", type="text/javascript", src="http://checkout.google.com/seller/gsc/v2/cart.js?mid=818615893219264", currency="USD")
+  script(id="googlecart-script", type="text/javascript", src="https://checkout.google.com/seller/gsc/v2_2/cart.js?mid=818615893219264", currency="USD")
 
 block content
   include author
@@ -24,6 +24,7 @@ block content
   article.post
     section!= page.html
   if page.metadata.gallery
-    include gallery
-
-    mixin gallery(page.metadata.gallery)
+    include walletGallery
+    include pagination
+    mixin gallery(page.metadata.gallery, page.metadata.onPage, page.metadata.perPage)
+    mixin pagination(page.url, page.metadata.gallery, page.metadata.onPage, page.metadata.perPage)

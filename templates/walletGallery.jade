@@ -1,0 +1,27 @@
+mixin gallery(count, page, perPage)
+  - page = page || 1
+  - perPage = perPage || 25
+  - start = (page - 1) * perPage
+  - end = Math.min(count, start + perPage)
+  - countLen = (count + '').length
+  section.walletGallery
+    - var lastLen = 0
+    - var zeroFill = ''
+    - for(i = start; i < end; i++)
+      - var iLen = ((i + 1) + '').length
+      - if(iLen != lastLen)
+        - lastLen = iLen
+        - zeroFill = ''
+        - for(j = 0; j < (countLen - lastLen); j++)
+          - zeroFill += '0'
+      .product.row
+        .half
+          a.slide.fresco(href="images/image" + zeroFill + (i + 1) + '.jpg', data-fresco-group="wallet", data-fresco-group-options="ui: 'inside'")
+            img.product-image(src="images/thumb" + zeroFill + (i + 1) + '.jpg')
+        .half
+          input.product-title(type="hidden", value="Print Order")
+          input.product-price(type="hidden", value="14.99")
+          select.product-attr-custom
+            option(value="Small", googlecart-set-product-price="14.99", selected="selected") Small - $14.99
+            option(value="Large", googlecart-set-product-price="19.99") Large - $19.99
+          .googlecart-add-button(tabindex="0", role="button", title="Add to cart")

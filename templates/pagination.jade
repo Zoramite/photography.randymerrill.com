@@ -1,0 +1,12 @@
+mixin pagination(count, page, perPage)
+  - page = page || 1
+  - perPage = perPage || 25
+  - pages = Math.ceil( count / perPage )
+
+  if count <= perPage
+    return
+
+  .row
+    ul.pagination
+      - for(i = 0; i < pages; i++)
+        li: a(href="/articles/vandenberg-ball-2012/" + (i <= 0 ? '' : i + 1)) #{i + 1}
