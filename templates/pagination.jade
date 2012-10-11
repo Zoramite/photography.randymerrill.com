@@ -1,12 +1,19 @@
-mixin pagination(count, page, perPage)
-  - page = page || 1
+mixin pagination(url, count, onPage, perPage)
+  - onPage = onPage || 1
   - perPage = perPage || 25
   - pages = Math.ceil( count / perPage )
+  - onPage = parseInt(onPage)
 
   if count <= perPage
     return
 
+  - url = url.replace(/index([0-9]*).html/, '')
+
   .row
     ul.pagination
+      if onPage > 1
+        li: a(href=(url + 'index' + (onPage == 2 ? '' : onPage - 1) + '.html')) &laquo; Previous
       - for(i = 0; i < pages; i++)
-        li: a(href="/articles/vandenberg-ball-2012/" + (i <= 0 ? '' : i + 1)) #{i + 1}
+        li: a(href=(url + 'index' + (i <= 0 ? '' : i + 1) + '.html'), class=(i + 1 == onPage ? 'selected' : '')) #{i + 1}
+      if onPage < pages
+        li: a(href=(url + 'index' + (onPage + 1) + '.html')) &raquo; Next

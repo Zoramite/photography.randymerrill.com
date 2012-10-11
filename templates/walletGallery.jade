@@ -19,9 +19,10 @@ mixin gallery(count, page, perPage)
           a.slide.fresco(href="images/image" + zeroFill + (i + 1) + '.jpg', data-fresco-group="wallet", data-fresco-group-options="ui: 'inside'")
             img.product-image(src="images/thumb" + zeroFill + (i + 1) + '.jpg')
         .half
-          input.product-title(type="hidden", value="Print Order")
-          input.product-price(type="hidden", value="14.99")
+          input.product-title(type="hidden", value="Print #" + (i + 1))
+          input.product-price(type="hidden", value="1.25")
           select.product-attr-custom
-            option(value="Small", googlecart-set-product-price="14.99", selected="selected") Small - $14.99
-            option(value="Large", googlecart-set-product-price="19.99") Large - $19.99
+            option(value="4x6", googlecart-set-product-price="1.25", selected="selected") 4x6 - $1.25
+            option(value="5x7", googlecart-set-product-price="1.95") 5x7 - $1.95
+            option(value="File", googlecart-set-product-price="3.00") File with Print Rights - $3.00
           .googlecart-add-button(tabindex="0", role="button", title="Add to cart")
