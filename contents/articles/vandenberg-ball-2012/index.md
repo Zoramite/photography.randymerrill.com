@@ -21,6 +21,8 @@ In honor of General (Ret) Lord and his wife, a donation of $500 was made to the 
 
 To crown the ball, a live band performed while guests danced the night away. And dance they did!
 
+These photos are also available for viewing on [Google+][plus] and [Facebook][fb].
+
 **Note:** To meet minimum print quantities, print orders will be grouped together and ordered on the 17th of October and the 3rd of November.
 
 <div class="product row">
@@ -35,3 +37,5 @@ To crown the ball, a live band performed while guests danced the night away. And
 </div>
 
 [komen]: http://komen.org
+[plus]: https://plus.google.com/photos/114870301499667220446/albums/5798150752975688945
+[fb]: https://www.facebook.com/media/set/?set=a.464001573646754.99540.392571280789784&type=1&l=85dc6c616a
