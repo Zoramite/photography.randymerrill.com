@@ -3,7 +3,7 @@ author: randy-merrill
 date: 2012-10-11 12:00
 template: wallet.jade
 tags: event
-gallery: 400
+gallery: 390
 preview: 386
 onPage: 1
 

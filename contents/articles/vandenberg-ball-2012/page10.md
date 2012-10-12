@@ -3,7 +3,7 @@ author: randy-merrill
 date: 2012-10-11 12:00
 template: wallet.jade
 tags: event
-gallery: 400
+gallery: 390
 onPage: 10
 
 To meet minimum print quantities, print orders will be grouped together and ordered on the 17th of October and the 3rd of November.
