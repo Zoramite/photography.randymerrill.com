@@ -27,7 +27,7 @@ These photos are also available for viewing on [Google+][plus] and [Facebook][fb
 
 <div class="product row">
 	<div class="half">
-		<p><strong>$20</strong> - CD with personal print rights.</p>
+		<p><strong>$20</strong> - DVD with personal print rights.</p>
 	</div>
 	<div class="half">
 		<input class="product-title" type="hidden" value="CD" />
