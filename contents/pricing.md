@@ -31,7 +31,7 @@ Each session comes with a basic package. Additional prints may be purchased afte
 			<li><strong>$300</strong></li>
 			<li>1 Hour</li>
 			<li>1 Location</li>
-			<li>Additional 30 minute blocks available at $100 per 30 minutes</li>
+			<li>Additional 30 minute blocks available at <strong>$100</strong> per 30 minutes</li>
 		</ul>
 	</div>
 	<div class="half">
