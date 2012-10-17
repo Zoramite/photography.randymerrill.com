@@ -25,7 +25,7 @@ Each session comes with a basic package. Additional prints may be purchased afte
 			<li>Additional 30 minute blocks available at <strong>$75</strong> per 30 minutes</li>
 		</ul>
 
-		<h4>2 to 4 People</h4>
+		<h4>2 to 5 People</h4>
 		
 		<ul>
 			<li><strong>$300</strong></li>
@@ -52,7 +52,7 @@ Each session comes with a basic package. Additional prints may be purchased afte
 			<li>1 Location</li>
 		</ul>
 
-		<h4>2 to 4 People</h4>
+		<h4>2 to 5 People</h4>
 		
 		<ul>
 			<li><strong>$130</strong></li>
