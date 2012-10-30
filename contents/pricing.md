@@ -21,7 +21,7 @@ Each session comes with a basic package. Additional prints may be purchased afte
 		<ul>
 			<li><strong>$225</strong></li>
 			<li>1 Hour</li>
-			<li>1 Location</li>
+			<li>1 Location&sup1;</li>
 			<li>Additional 30 minute blocks available at <strong>$75</strong> per 30 minutes</li>
 		</ul>
 
@@ -30,7 +30,7 @@ Each session comes with a basic package. Additional prints may be purchased afte
 		<ul>
 			<li><strong>$300</strong></li>
 			<li>1 Hour</li>
-			<li>1 Location</li>
+			<li>1 Location&sup1;</li>
 			<li>Additional 30 minute blocks available at <strong>$100</strong> per 30 minutes</li>
 		</ul>
 	</div>
@@ -49,7 +49,7 @@ Each session comes with a basic package. Additional prints may be purchased afte
 		<ul>
 			<li><strong>$90</strong></li>
 			<li>30 Minutes</li>
-			<li>1 Location</li>
+			<li>1 Location&sup1;</li>
 		</ul>
 
 		<h4>2 to 5 People</h4>
@@ -57,14 +57,43 @@ Each session comes with a basic package. Additional prints may be purchased afte
 		<ul>
 			<li><strong>$130</strong></li>
 			<li>30 Minutes</li>
-			<li>1 Location</li>
+			<li>1 Location&sup1;</li>
+		</ul>
+	</div>
+</div>
+
+## Weddings
+
+A <strong>$300</strong>, non-refundable, deposit is due when booking a wedding. The remaining amount is due <strong>2 weeks</strong> before the wedding.
+
+Wedding package credit can be used towards <em>prints, bridal, engagement, or black tie sessions</em>.
+
+<div class="row">
+	<div class="half">
+		<h3>Silver Package</h3>
+		
+		<ul>
+			<li><strong>$2,200</strong></li>
+			<li>4 Hours of Wedding Day Coverage</li>
+			<li>Up to 2 Locations&sup1;</li>
+			<li><strong>$300</strong> credit</li>
+		</ul>
+	</div>
+	<div class="half">
+		<h3>Platinum Package</h3>
+		
+		<ul>
+			<li><strong>$3,400</strong></li>
+			<li>8 Hours of Wedding Day Coverage</li>
+			<li>Unlimited Locations&sup1;</li>
+			<li><strong>$600</strong> credit</li>
 		</ul>
 	</div>
 </div>
 
 ## Custom Sessions
 
-Don't see your situation listed above? Call [435.363.4780][tel] for details and to arrange a custom session.
+Don't see your situation listed above? Call [435.363.4780][tel] to arrange a custom session.
 
 ## Discounts
 
@@ -140,7 +169,7 @@ Don't see your situation listed above? Call [435.363.4780][tel] for details and 
 			</thead>
 			<tbody>
 				<tr>
-					<td>$100</td>
+					<td>$120</td>
 					<td>Photo CD/DVD with printing rights.</td>
 				</tr>
 			</tbody>
@@ -162,5 +191,7 @@ Other items available upon request:
   * Boutique Cards
   * Postcards
   * And more!
+
+&sup1; Additional travel expenses apply if the shoot is out of the Santa Maria/Lompoc area.
 
 [tel]: tel:+14353634780
