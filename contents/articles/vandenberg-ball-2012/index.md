@@ -23,7 +23,7 @@ To crown the ball, a live band performed while guests danced the night away. And
 
 These photos are also available for viewing on [Google+][plus] and [Facebook][fb].
 
-**Note:** To meet minimum print quantities, print orders will be grouped together and ordered on the 17th of October and the 3rd of November.
+**Note:** Print orders will be grouped together to meet the minimum print order quantities. This means that there may be a wait between when you place the order and when the pictures are printed and delivered. If you have any questions feel free to call at [435.363.4780][tel].
 
 <div class="product row">
 	<div class="half">
@@ -39,3 +39,4 @@ These photos are also available for viewing on [Google+][plus] and [Facebook][fb
 [komen]: http://komen.org
 [plus]: https://plus.google.com/photos/114870301499667220446/albums/5798150752975688945
 [fb]: https://www.facebook.com/media/set/?set=a.464001573646754.99540.392571280789784&type=1&l=85dc6c616a
+[tel]: tel:+14353634780
