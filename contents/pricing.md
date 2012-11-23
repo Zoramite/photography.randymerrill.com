@@ -3,9 +3,33 @@ template: layout.jade
 
 ## Portrait and Family Sessions
 
-Each session comes with a basic package. Additional prints may be purchased after the session, À la carte.
-
 <div class="row">
+	<div class="half">
+		<h3>Mini Sessions</h3>
+
+		<p>Each mini session comes with a basic photo package:</p>
+
+		<ul>
+			<li><strong>1</strong> - 8x12 (or 8x10) Print</li>
+			<li><strong>3</strong> - 5x7 Prints</li>
+		</ul>
+
+		<h4>1 Person</h4>
+		
+		<ul>
+			<li><strong>$90</strong></li>
+			<li>30 Minutes</li>
+			<li>1 Location&sup1;</li>
+		</ul>
+
+		<h4>2 to 5 People</h4>
+		
+		<ul>
+			<li><strong>$130</strong></li>
+			<li>30 Minutes</li>
+			<li>1 Location&sup1;</li>
+		</ul>
+	</div>
 	<div class="half">
 		<h3>Full Sessions</h3>
 
@@ -32,6 +56,29 @@ Each session comes with a basic package. Additional prints may be purchased afte
 			<li>1 Hour</li>
 			<li>1 Location&sup1;</li>
 			<li>Additional 30 minute blocks available at <strong>$100</strong> per 30 minutes</li>
+		</ul>
+	</div>
+</div>
+
+## Studio Sessions
+
+<p>Each studio session comes with a basic photo package:</p>
+
+<ul>
+	<li><strong>2</strong> - 8x12 (or 8x10) Prints</li>
+	<li><strong>4</strong> - 5x7 Prints</li>
+</ul>
+
+<div class="row">
+	<div class="half">
+		<h3>Silver Session</h3>
+		
+		<ul>
+			<li><strong>$150</strong></li>
+			<li>1 Hour</li>
+			<li>In Studio (on Base)</li>
+			<li>Up to 4 people</li>
+			<li>Additional 30 minute blocks available at <strong>$60</strong> per 30 minutes</li>
 		</ul>
 	</div>
 	<div class="half">
