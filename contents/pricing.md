@@ -131,16 +131,20 @@ Don't see your situation listed above? Call [435.363.4780][tel] to arrange a cus
 		<input type="hidden" class="product-price" value="67.50">
 
 		<select class="product-attr-custom">
-			<option value="Mini Session (1P)" googlecart-set-product-price="67.50" selected="selected">Mini Session (1 Person) - $67.50</option>
-			<option value="Mini Session (2-5P)" googlecart-set-product-price="97.50">Mini Session (2-5 People) - $97.50</option>
-			<option value="Full Session (1P)" googlecart-set-product-price="168.75">Full Session (1 Person) - $168.75</option>
-			<option value="Full Session (2-5P)" googlecart-set-product-price="225.00">Full Session (2-5 People) - $225.00</option>
-			<option value="Studio Session" googlecart-set-product-price="90.00">Studio Session (Up to 4 People) - $90</option>
-			<option value="Military Mini Session (1P)" googlecart-set-product-price="49.50">Military Mini Session (1 Person) - $49.50</option>
-			<option value="Military Mini Session (2-5P)" googlecart-set-product-price="71.50">Military Mini Session (2-5 People) - $71.50</option>
-			<option value="Military Full Session (1P)" googlecart-set-product-price="123.75">Military Full Session (1 Person) - $123.75</option>
-			<option value="Military Full Session (2-5P)" googlecart-set-product-price="165.00">Military Full Session (2-5 People) - $165.00</option>
-			<option value="Military Studio Session" googlecart-set-product-price="66.00">Military Studio Session (Up to 4 People) - $66.00</option>
+			<optgroup label="Standard Sessions">
+				<option value="Mini Session (1P)" googlecart-set-product-price="67.50" selected="selected">Mini Session (1 Person) - $67.50</option>
+				<option value="Mini Session (2-5P)" googlecart-set-product-price="97.50">Mini Session (2-5 People) - $97.50</option>
+				<option value="Full Session (1P)" googlecart-set-product-price="168.75">Full Session (1 Person) - $168.75</option>
+				<option value="Full Session (2-5P)" googlecart-set-product-price="225.00">Full Session (2-5 People) - $225.00</option>
+				<option value="Studio Session" googlecart-set-product-price="90.00">Studio Session (Up to 4 People) - $90</option>
+			</optgroup>
+			<optgroup label="Military Sessions">
+				<option value="Military Mini Session (1P)" googlecart-set-product-price="49.50">Military Mini Session (1 Person) - $49.50</option>
+				<option value="Military Mini Session (2-5P)" googlecart-set-product-price="71.50">Military Mini Session (2-5 People) - $71.50</option>
+				<option value="Military Full Session (1P)" googlecart-set-product-price="123.75">Military Full Session (1 Person) - $123.75</option>
+				<option value="Military Full Session (2-5P)" googlecart-set-product-price="165.00">Military Full Session (2-5 People) - $165.00</option>
+				<option value="Military Studio Session" googlecart-set-product-price="66.00">Military Studio Session (Up to 4 People) - $66.00</option>
+			</optgroup>
 		</select>
     </div>
     <div class="half">
