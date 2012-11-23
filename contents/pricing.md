@@ -3,7 +3,7 @@ template: pricing.jade
 
 ## Gift Certificates
 
-**BLACK FRIDAY / CYBER MONDAY PRICING! ENDS MIDNIGHT, NOVEMBER 26**
+**35% OFF BLACK FRIDAY / CYBER MONDAY SALE! ENDS MIDNIGHT, NOVEMBER 26**
 
 <div class="product row">
     <div class="half">
