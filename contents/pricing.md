@@ -72,39 +72,13 @@ template: layout.jade
 <div class="row">
 	<div class="half">
 		<h3>Silver Session</h3>
-		
+
 		<ul>
 			<li><strong>$150</strong></li>
-			<li>1 Hour</li>
+			<li>45 Minutes</li>
 			<li>In Studio (on Base)</li>
 			<li>Up to 4 people</li>
 			<li>Additional 30 minute blocks available at <strong>$60</strong> per 30 minutes</li>
-		</ul>
-	</div>
-	<div class="half">
-		<h3>Mini Sessions</h3>
-
-		<p>Each mini session comes with a basic photo package:</p>
-
-		<ul>
-			<li><strong>1</strong> - 8x12 (or 8x10) Print</li>
-			<li><strong>3</strong> - 5x7 Prints</li>
-		</ul>
-
-		<h4>1 Person</h4>
-		
-		<ul>
-			<li><strong>$90</strong></li>
-			<li>30 Minutes</li>
-			<li>1 Location&sup1;</li>
-		</ul>
-
-		<h4>2 to 5 People</h4>
-		
-		<ul>
-			<li><strong>$130</strong></li>
-			<li>30 Minutes</li>
-			<li>1 Location&sup1;</li>
 		</ul>
 	</div>
 </div>
