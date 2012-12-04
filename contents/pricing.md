@@ -1,11 +1,11 @@
 title: Pricing
 template: pricing.jade
 
-## Portrait and Family Sessions
+### Portrait and Family Sessions
 
 <div class="row">
 	<div class="half">
-		<h3>Mini Sessions</h3>
+		<h4>Mini Sessions</h4>
 
 		<p>Each mini session comes with a basic photo package:</p>
 
@@ -31,7 +31,7 @@ template: pricing.jade
 		</ul>
 	</div>
 	<div class="half">
-		<h3>Full Sessions</h3>
+		<h4>Full Sessions</h4>
 
 		<p>Each full session comes with a basic photo package:</p>
 
@@ -60,7 +60,7 @@ template: pricing.jade
 	</div>
 </div>
 
-## Studio Sessions
+### Studio Sessions
 
 <p>Each studio session comes with a basic photo package:</p>
 
@@ -71,7 +71,7 @@ template: pricing.jade
 
 <div class="row">
 	<div class="half">
-		<h3>Silver Session</h3>
+		<h4>Silver Session</h4>
 
 		<ul>
 			<li><strong>$120</strong></li>
@@ -83,7 +83,7 @@ template: pricing.jade
 	</div>
 </div>
 
-## Weddings
+### Weddings
 
 A <strong>$300</strong>, non-refundable, deposit is due when booking a wedding. The remaining amount is due <strong>2 weeks</strong> before the wedding.
 
@@ -91,7 +91,7 @@ Wedding package credit can be used towards <em>prints, bridal, engagement, or bl
 
 <div class="row">
 	<div class="half">
-		<h3>Silver Package</h3>
+		<h4>Silver Package</h4>
 		
 		<ul>
 			<li><strong>$2,200</strong></li>
@@ -101,7 +101,7 @@ Wedding package credit can be used towards <em>prints, bridal, engagement, or bl
 		</ul>
 	</div>
 	<div class="half">
-		<h3>Platinum Package</h3>
+		<h4>Platinum Package</h4>
 		
 		<ul>
 			<li><strong>$3,400</strong></li>
@@ -112,16 +112,16 @@ Wedding package credit can be used towards <em>prints, bridal, engagement, or bl
 	</div>
 </div>
 
-## Custom Sessions
+### Custom Sessions
 
 Don't see your situation listed above? Call [435.363.4780][tel] to arrange a custom session.
 
-## Discounts
+### Discounts
 
   * All Military members recieve a 20% session discount.
   * Coupons for mini sessions can also be used for full sessions and custom sessions.
 
-## Gift Certificates
+### Gift Certificates
 
 <div class="product row">
     <div class="half">
@@ -150,11 +150,11 @@ Don't see your situation listed above? Call [435.363.4780][tel] to arrange a cus
     </div>
 </div>
 
-## À la carte pricing
+### À la carte pricing
 
 <div class="row">
 	<div class="half">
-		<h3>Prints</h3>
+		<h4>Prints</h4>
 
 		<table>
 			<thead>
@@ -192,7 +192,7 @@ Don't see your situation listed above? Call [435.363.4780][tel] to arrange a cus
 		</table>
 	</div>
 	<div class="half">
-		<h3>Wall Displays</h3>
+		<h4>Wall Displays</h4>
 		<table>
 			<thead>
 				<tr>
@@ -212,7 +212,7 @@ Don't see your situation listed above? Call [435.363.4780][tel] to arrange a cus
 			</tbody>
 		</table>
 
-		<h3>Digital</h3>
+		<h4>Digital</h4>
 
 		<table>
 			<thead>
@@ -231,7 +231,7 @@ Don't see your situation listed above? Call [435.363.4780][tel] to arrange a cus
 	</div>
 </div>
 
-### Also Available
+#### Also Available
 
 Products are available in a variety of sizes, papers, and finishes.
 
