@@ -165,23 +165,27 @@ Don't see your situation listed above? Call [435.363.4780][tel] to arrange a cus
 			</thead>
 			<tbody>
 				<tr>
-					<td>$0.80</td>
+					<td>$0.93</td>
 					<td>4x6 Print</td>
 				</tr>
 				<tr>
-					<td>$2.64</td>
+					<td>$1.46</td>
+					<td>5x7 Print</td>
+				</tr>
+				<tr>
+					<td>$2.79</td>
 					<td>8 up Wallet</td>
 				</tr>
 				<tr>
-					<td>$2.64</td>
+					<td>$2.79</td>
 					<td>8x10 Print</td>
 				</tr>
 				<tr>
-					<td>$4.56</td>
+					<td>$4.83</td>
 					<td>8x12 Print</td>
 				</tr>
 				<tr>
-					<td>$17.40</td>
+					<td>$18.42</td>
 					<td>16x20 Print</td>
 				</tr>
 			</tbody>
@@ -198,11 +202,11 @@ Don't see your situation listed above? Call [435.363.4780][tel] to arrange a cus
 			</thead>
 			<tbody>
 				<tr>
-					<td>$52.62</td>
+					<td>$55.69</td>
 					<td>16x20 Standout Print</td>
 				</tr>
 				<tr>
-					<td>$111.60</td>
+					<td>$118.11</td>
 					<td>16x20 Canvas 1&frac12;"  Wrap</td>
 				</tr>
 			</tbody>
@@ -219,7 +223,7 @@ Don't see your situation listed above? Call [435.363.4780][tel] to arrange a cus
 			</thead>
 			<tbody>
 				<tr>
-					<td>$120</td>
+					<td>$125</td>
 					<td>Photo CD/DVD with printing rights.</td>
 				</tr>
 			</tbody>
