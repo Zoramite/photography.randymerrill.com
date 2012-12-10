@@ -1,6 +1,6 @@
 title: Vandenberg Air Force Anniversary Ball
 author: randy-merrill
-date: 2012-12-09 21:00
+date: 2012-12-08 21:00
 template: wallet.jade
 tags: event
 gallery: 43
