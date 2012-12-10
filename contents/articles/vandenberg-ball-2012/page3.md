@@ -6,4 +6,6 @@ tags: event
 gallery: 390
 onPage: 3
 
-To meet minimum print quantities, print orders will be grouped together and ordered on the 17th of October and the 3rd of November.
+**Note:** Print orders will be grouped together to meet the minimum print order quantities. This means that there may be a wait between when you place the order and when the pictures are printed and delivered. If you have any questions feel free to call at [435.363.4780][tel].
+
+[tel]: tel:+14353634780
