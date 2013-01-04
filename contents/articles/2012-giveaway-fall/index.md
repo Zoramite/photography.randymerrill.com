@@ -1,9 +1,11 @@
+---
 title: Fall 2012 Giveaway
 author: randy-merrill
 date: 2012-09-27 23:00
 template: article.jade
 tags: giveaway,marketing
 preview: 01
+---
 
 **Update:** Contgratulations to the winners of the giveaway! Look for another giveaway as we get closer to the new year!
 

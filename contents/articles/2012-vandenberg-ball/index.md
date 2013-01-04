@@ -1,3 +1,4 @@
+---
 title: Vandenberg Air Force Anniversary Ball
 author: randy-merrill
 date: 2012-10-11 12:00
@@ -6,6 +7,7 @@ tags: event
 gallery: 390
 preview: 386
 onPage: 1
+---
 
 In celebration of the 65th anniversary of the US Air Force, Vandenberg Air Force Base hosted an anniversary ball on the 5th of October at the Pacific Coast Club.
 

@@ -1,3 +1,4 @@
+---
 title: Light Painting: I
 author: randy-merrill
 date: 2012-08-17 18:00
@@ -5,6 +6,7 @@ template: article.jade
 tags: night,light painting,experiment,laser
 gallery: 16
 preview: 12
+---
 
 This was my first experimentation with light painting. Captured these pictures while camping out next to a grassy/weedy field.
 

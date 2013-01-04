@@ -1,5 +1,7 @@
+---
 title: Photography Gear
 template: layout.jade
+---
 
 For those who are interested in what gear I use to take my photos, here is my gear list:
 

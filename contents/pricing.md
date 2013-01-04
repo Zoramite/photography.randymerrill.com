@@ -1,5 +1,7 @@
+---
 title: Pricing
 template: pricing.jade
+---
 
 ### Portrait and Family Sessions
 

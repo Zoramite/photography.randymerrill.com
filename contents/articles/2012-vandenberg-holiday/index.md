@@ -1,3 +1,4 @@
+---
 title: Vandenberg Air Force Holiday Party
 author: randy-merrill
 date: 2012-12-08 21:00
@@ -6,6 +7,7 @@ tags: event
 gallery: 43
 preview: 13
 onPage: 1
+---
 
 The JFCC SPACE and 14 AF had their annual Holiday Party on the 8th of November at the Pacific Coast Club.
 

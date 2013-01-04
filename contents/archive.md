@@ -1,5 +1,7 @@
+---
 title: The Archives
 template: archive.jade
+---
 
 ## Archives
 
