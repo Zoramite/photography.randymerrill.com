@@ -1,5 +1,5 @@
 ---
-title: Light Painting: I
+title: "Light Painting: I"
 author: randy-merrill
 date: 2012-08-17 18:00
 template: article.jade
