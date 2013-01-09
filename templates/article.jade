@@ -8,6 +8,16 @@ block append styles
 
 block append scripts
   script(src="/scripts/fresco.js")
+
+  if !page.metadata.suppressComments
+    script
+      var disqus_shortname = 'randymerrillphotography';
+      
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
   
 block content
   include author
@@ -26,3 +36,6 @@ block content
     include gallery
 
     mixin gallery(page.metadata.gallery)
+
+  if !page.metadata.suppressComments
+    #disqus_thread 
