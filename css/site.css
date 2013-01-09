@@ -2218,6 +2218,10 @@ header nav ul li a:focus {
 .content {
   overflow: hidden;
 }
+.walletGallery,
+.gallery {
+  margin-bottom: 1.5em;
+}
 .walletGallery .slide,
 .gallery .slide {
   padding: .25em;
