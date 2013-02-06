@@ -1,5 +1,5 @@
 //  Freetile.js
-//  v0.2.5
+//  v0.2.12
 //
 //  A dynamic layout plugin for jQuery.
 //
@@ -37,11 +37,16 @@
     $.fn.freetile = function( method ) 
     {
         // Method calling logic
-        if ( typeof Freetile[ method ] === 'function' ) {
+        if ( typeof Freetile[ method ] === 'function' ) 
+        {
           return Freetile[ method ].apply( this, Array.prototype.slice.call( arguments, 1 ));
-        } else if ( typeof method === 'object' || ! method ) {
+        } 
+        else if ( typeof method === 'object' || ! method ) 
+        {
           return Freetile.init.apply( this, arguments );
-        } else {
+        } 
+        else 
+        {
           $.error( 'Method ' +  method + ' does not exist on jQuery.Freetile' );
         }
         
@@ -50,30 +55,28 @@
     
     var Freetile = 
     {
-        
         //
         // "Public" Methods
         // _________________________________________________________
         
         // Method 1.
-        // Smart and generic method that chooses between
+        // Smart and generic method that selects between
         // initialize, re-layout or append.
         init : function(options) 
         {
-            var container = this;
-            
-            // Setup Options
-            var o = Freetile.setupOptions(container, options);
+            var container = this,
+                o = Freetile.setupOptions(container, options),
+                c = Freetile.newContent(o.contentToAppend);
             
             // Setup container bindings for resize and custom events
             if (!o.tiled) Freetile.setupContainerBindings(container, o);
             
             // If there is content to append and container has been already
             // tiled, continue in append mode.
-            if (o.tiled && !$.isEmptyObject(o.contentToAppend)) 
+            if (o.tiled && c) 
             {
-                container.append(o.contentToAppend);
-                o.contentToAppend.filter(o.selector || '*').imagesLoaded(function() 
+                container.append(c);
+                c.filter(o.selector || '*').imagesLoaded(function() 
                 {
                     Freetile.positionAll(container, o);
                 });
@@ -87,7 +90,6 @@
                     Freetile.positionAll(container, o);
                 });
             }
-            
             return container;
         },
         
@@ -96,22 +98,20 @@
         // content to append.
         append : function(options) 
         {
-            var container = this;
-            
-            // Setup Options
-            var o = Freetile.setupOptions(container, options);
+            var container = this,
+                o = Freetile.setupOptions(container, options),
+                c = Freetile.newContent(o.contentToAppend);
             
             // If there is content to append and container has been already
             // tiled, continue in append mode.
-            if (o.tiled && !$.isEmptyObject(o.contentToAppend)) 
+            if (o.tiled && c) 
             {
-                container.append(o.contentToAppend);
-                o.contentToAppend.imagesLoaded(function() 
+                container.append(c);
+                c.imagesLoaded(function() 
                 {
                     Freetile.positionAll(container, o);
                 });
             }
-            
             return container;
         },
         
@@ -120,13 +120,12 @@
         // is done.
         layout : function(options) 
         {
-            // Setup Options
-            var o = Freetile.setupOptions(this, options);
+            var container = this,
+                o = Freetile.setupOptions(container, options);
             
             // Position Elements
-            Freetile.positionAll(this, o);
-            
-            return this;
+            Freetile.positionAll(container, o);
+            return container;
         },
         
         //
@@ -138,7 +137,6 @@
 
         setupOptions : function(container, options) 
         {
-
             // Get the data object from the container. If it doesn't exist it probably means
             // it's the first time Freetile is called..
             var containerData = container.data('FreetileData');
@@ -167,9 +165,7 @@
             // _animate is an internal variable that indicates whether animation is
             // POSSIBLE & REQUESTED !!
             newOptions._animate = newOptions.animate && newOptions.tiled && $.isEmptyObject(newOptions.contentToAppend);
-            
             this.reset.callback = newOptions.persistentCallback && newOptions.callback ? newOptions.callback : function() {};
-
             return newOptions;
         },
         
@@ -184,6 +180,7 @@
                 var win = $(window),
                     curWidth = win.width(),
                     curHeight = win.height();
+
                 win.resize(function() 
                 {
                     clearTimeout(container.data("FreetileTimeout"));
@@ -212,6 +209,19 @@
             }
             return container;
         },
+
+        // Get content to be appended.
+        // _________________________________________________________
+
+        newContent : function(content) 
+        {
+            if ( (typeof content === 'object' && !$.isEmptyObject(content)) 
+                || (typeof content === 'string' && $(content).length ) ) 
+            {
+                return $(content);
+            }
+            return false;
+        },
         
         // Position a single element.
         // _________________________________________________________
@@ -224,7 +234,7 @@
             // ^        ^
             // Start    End
 
-            elements.each(function() 
+            elements.each(function(i) 
             {
                 // Variable declaration.
                 var $this = $(this),
@@ -233,6 +243,7 @@
                 o.ElementWidth = $this.outerWidth(true);
                 o.ElementHeight = $this.outerHeight(true);
                 o.ElementTop = 0;
+                o.ElementIndex = i;
                 o.IndexStart = 0; 
                 o.IndexEnd = 0;
                 o.BestScore = 0;
@@ -297,7 +308,8 @@
                 {
                     var aniObj = {el : $this, f : 'css', d : 0};
 
-                    if (o._animate && !$this.hasClass('noanim')) {
+                    if (o._animate && !$this.hasClass('noanim')) 
+                    {
                         // Current offset
                         var curoffset = $this.offset(),
 
@@ -360,13 +372,28 @@
             });
         },
 
+        prepareElements: function(container, elements, o) // Container, elements, options
+        {
+            // Set elements display to block (http://jsfiddle.net/vH2g9/1/) 
+            // and position to absolute first. (http://bit.ly/hpo7Nv)
+            elements.each(function()
+            {
+                var $this = $(this);
+                if ($this.is(':visible'))
+                {
+                    $this.css({'display' : 'block'});
+                }
+            }).css({'position' : 'absolute'});
+        },
+
         // Process styleQueue
         // This is set up like jQuery masonry, rather than directly applying
         // styles in the positioning loop. For some reason, it yields a performance gain
         // of about 7x (in Safari 5.1.4)!!
         // _________________________________________________________
 
-        applyStyles : function(o) {
+        applyStyles : function(o) 
+        {
             var obj;
             for (var i=0, len = o.styleQueue.length; i < len; i++) 
             {
@@ -404,7 +431,17 @@
             // Count elements.
             o.ElementsCount = Elements.length;
 
-            if (!o.ElementsCount) return(false);
+            // If container is empty, set height to zero, call callback and return.
+            if (!o.ElementsCount) 
+            {
+                if (typeof(o.callback == "function"))
+                {
+                    o.callback(o);
+                }
+                var f = o._animate && o.containerAnimate ? 'animate' : 'css';
+                container[f]({ 'height' : '0px'});
+                return container;
+            }
             
             // Store the container's visibility properties.
             var disp = container.css('display') || '';
@@ -441,8 +478,7 @@
             // 2. Position Elements and apply styles.
             //
 
-            // Set elements position to absolute first. http://bit.ly/hpo7Nv
-            Elements.css({position: 'absolute'});
+            Freetile.prepareElements(container, Elements, o);
             Freetile.calculatePositions(container, Elements, o);
             Freetile.applyStyles(o);
             
@@ -465,12 +501,11 @@
                 CalculatedCSS.position = 'relative';
             }
             
-            // If forceWidth is true, apply new width to the container.
-            if (o.forceWidth) 
+            // If forceWidth is true, apply new width to the container
+            // using step specified in containerWidthStep.
+            if (o.forceWidth && o.containerWidthStep > 0) 
             {
-                CalculatedCSS.width = o.containerWidthStep ? 
-                o.containerWidthStep * (parseInt(container.width() / o.containerWidthStep, 10)) : 
-                o._columns * o._colWidth;
+                CalculatedCSS.width = o.containerWidthStep * (parseInt(container.width() / o.containerWidthStep, 10))
             }
             
             // Apply initial CSS properties.
@@ -504,15 +539,15 @@
         // Defaults
         defaults : 
         {
-            selector : undefined,
+            selector : '*',
             animate : false,
             elementDelay : 0,
             containerResize : true,
-            containerAnimate : true,
-            customEvents : undefined,
+            containerAnimate : false, 
+            customEvents : '',
             persistentCallback : false,
             forceWidth : false,
-            containerWidthStep : undefined,
+            containerWidthStep : 1,
             scoreFunction: function(o) 
             {
                 // Minimum Available Variable set
