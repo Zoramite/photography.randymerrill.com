@@ -8,6 +8,8 @@
 		});
 
 		// Start freetile
-		$('.gallery').freetile();
+		$('.gallery').each(function() {
+			$(this).freetile();
+		});
 	});
 }(jQuery, _gaq || []));

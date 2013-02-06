@@ -20,7 +20,12 @@ block content
       each articles, month in months
         h3= month
 
-        ul
+        section.gallery
           each article in articles
-            li
-              a(href=article.url)= article.title
+            - var zeroFill = ''
+            - var gLen = (article._metadata.gallery ? article._metadata.gallery.toString().length : 0)
+            - var pLen = article._metadata.preview.toString().length
+            - for(var j = pLen; j < gLen; j++)
+              - zeroFill += '0'
+            a.slide(href=article.url, title=article.title)
+              img(src=article.url + "images/thumb" + zeroFill + article._metadata.preview + '.jpg')
