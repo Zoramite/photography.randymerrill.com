@@ -11,13 +11,19 @@ block content
   -   return -item.date
   - }).first(5).value() // and finally take the first 5
   each article in articles
+    - var zeroFill = ''
+    - var gLen = (article._metadata.gallery ? article._metadata.gallery.toString().length : 0)
+    - var pLen = article._metadata.preview.toString().length
+    - for(var j = pLen; j < gLen; j++)
+      - zeroFill += '0'
+
     article.post
       .row
         if article.metadata.preview
           .third
             figure.preview
               a(href=article.url)
-                img(src=article.url + "images/thumb" + article.metadata.preview + ".jpg")
+                img(src=article.url + "images/thumb" + zeroFill + article.metadata.preview + ".jpg")
         .twothird
           h2
             a(href=article.url)= article.title
