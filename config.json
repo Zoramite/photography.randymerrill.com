@@ -3,10 +3,24 @@
     "url": "http://photography.randymerrill.com",
     "name": "Randy Merrill Photography",
     "owner": "Randy Merrill",
-    "description": "",
+    "description": "Adventures of Randy Merrill Photography.",
     "index_articles": 3
   },
   "plugins": [
-    "wintersmith-less"
-  ]
+    "wintersmith-less",
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "_": "underscore"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 5
+  }
 }

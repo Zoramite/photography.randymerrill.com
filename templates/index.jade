@@ -1,19 +1,10 @@
 extends layout
 
 block content
-  //- underscore helps us filter and sort our articles
-  - var articles = _.chain(contents.articles._.directories).map(function(item) {
-  -   // map articles to index pages of subdirectories of 'articles'
-  -   console.log(item.index);
-  -   return item.index
-  - }).compact().sortBy(function(item) { // compact removes any directories w/o an index
-  -   // sort them by date
-  -   return -item.date
-  - }).first(5).value() // and finally take the first 5
   each article in articles
     - var zeroFill = ''
-    - var gLen = (article._metadata.gallery ? article._metadata.gallery.toString().length : 0)
-    - var pLen = article._metadata.preview.toString().length
+    - var gLen = (article.metadata.gallery ? article.metadata.gallery.toString().length : 0)
+    - var pLen = article.metadata.preview.toString().length
     - for(var j = pLen; j < gLen; j++)
       - zeroFill += '0'
 

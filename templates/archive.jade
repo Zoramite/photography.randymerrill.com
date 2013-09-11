@@ -23,9 +23,9 @@ block content
         section.gallery
           each article in articles
             - var zeroFill = ''
-            - var gLen = (article._metadata.gallery ? article._metadata.gallery.toString().length : 0)
-            - var pLen = article._metadata.preview.toString().length
+            - var gLen = (article.metadata.gallery ? article.metadata.gallery.toString().length : 0)
+            - var pLen = article.metadata.preview.toString().length
             - for(var j = pLen; j < gLen; j++)
               - zeroFill += '0'
             a.slide(href=article.url, title=article.title)
-              img(src=article.url + "images/thumb" + zeroFill + article._metadata.preview + '.jpg')
+              img(src=article.url + "images/thumb" + zeroFill + article.metadata.preview + '.jpg')
