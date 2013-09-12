@@ -248,6 +248,6 @@ Other items available upon request:
   * Postcards
   * And more!
 
-&sup1; Additional travel expenses apply if the shoot is out of the Santa Maria/Lompoc area.
+&sup1; Additional travel expenses apply if the shoot is out of the Tracy/Mountain House area.
 
 [tel]: tel:+14353634780
