@@ -28,4 +28,8 @@ block content
               mixin author(article.metadata.author)
               | .
 
-  p: a.archives(href="/archive.html") View more in the archives...
+  p
+    if prevPage
+      a.previousPage(href=prevPage.url) « Newer
+    if nextPage
+      a.nextPage(href=nextPage.url) Older »
