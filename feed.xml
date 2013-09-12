@@ -5,9 +5,18 @@
     <atom:link href="http://photography.randymerrill.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://photography.randymerrill.com</link>
     <description>Adventures of Randy Merrill Photography.</description>
-    <pubDate>Fri, 28 Dec 2012 20:00:00 -0800</pubDate>
+    <pubDate>Mon, 24 Jun 2013 13:00:00 -0700</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>]M[ Newborn</title>
+      <link>http://photography.randymerrill.com/articles/2013-m-newborn/</link>
+      <pubDate>Mon, 24 Jun 2013 13:00:00 -0700</pubDate>
+      <guid isPermaLink="true">http://photography.randymerrill.com/articles/2013-m-newborn/</guid>
+      <author></author>
+      <description>&lt;p&gt;Welcoming baby ]M[ into the family.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>]M[ First Birthday</title>
       <link>http://photography.randymerrill.com/articles/2012-m-first-birthday/</link>
@@ -230,15 +239,6 @@
       <guid isPermaLink="true">http://photography.randymerrill.com/articles/2012-p-park-city/</guid>
       <author></author>
       <description>&lt;p&gt;A break from the life to spend some time with friends… and take pictures.&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>]M[ Newborn</title>
-      <link>http://photography.randymerrill.com/articles/2012-m-newborn/</link>
-      <pubDate>Sun, 24 Jun 2012 13:00:00 -0700</pubDate>
-      <guid isPermaLink="true">http://photography.randymerrill.com/articles/2012-m-newborn/</guid>
-      <author></author>
-      <description>&lt;p&gt;Welcoming baby ]M[ into the family.&lt;/p&gt;
 </description>
     </item>
     <item>
