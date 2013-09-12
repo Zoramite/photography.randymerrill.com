@@ -113,8 +113,6 @@ header {
   }
 
   nav {
-  	.border-radius();
-
     ul {
       font-family: 'Quattrocento', serif;
 
@@ -124,6 +122,7 @@ header {
         line-height: 2.25em;
 
         a {
+          .border-radius();
           color: @colorTertiary;
           display: block;
           .linear-gradient(@colorBackground, 0%, @colorBackgroundFade, 100%);
@@ -173,22 +172,18 @@ header {
 .pagination {
   margin: 0;
   padding: 0;
-  text-align: center;
 
-  li {
-    float: left;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  li a {
+    color: @colorTertiary;
 
-    a {
-      display: block;
-      padding: .5em;
-
-      &.selected {
-        font-weight: bold;
-        background: #222;
-      }
+    &:hover {
+      color: @colorLinksHover;
+      background: none;
+    }
+    
+    &.selected {
+      font-weight: bold;
+      background: #222;
     }
   }
 }

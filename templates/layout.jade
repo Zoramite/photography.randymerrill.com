@@ -31,27 +31,27 @@ html(lang='en')
         .logo
           a(href="/")
             img(src="/images/RMPhotography.png", title="Randy Merrill Photography")
-        nav.row
+        nav.units-row
           ul.horizontal
-            li.fifth: a(href="/") Home
-            li.fifth: a(href="/archive.html") Archives
-            li.fifth: a(href="/appointment.html") Appointments
-            li.fifth: a(href="/gear.html") Gear
-            li.fifth: a(href="/pricing.html") Pricing
+            li.unit-20: a(href="/") Home
+            li.unit-20: a(href="/archive.html") Archives
+            li.unit-20: a(href="/appointment.html") Appointments
+            li.unit-20: a(href="/gear.html") Gear
+            li.unit-20: a(href="/pricing.html") Pricing
       #content
         block content
           h2= page.title
           section!= page.html
       footer
-        .row
-          .third.sharing
+        .units-row
+          .unit-33.sharing
             a.zocial.icon.googleplus(href="https://plus.google.com/114870301499667220446", data-category="link", data-action="click", data-value="Google+") On Google+
             a.zocial.icon.facebook(href="https://www.facebook.com/Randy.Merrill.Photography", data-category="link", data-action="click", data-value="Facebook") On Facebook
             a.zocial.icon.flickr(href="http://www.flickr.com/photos/zoramite/", data-category="link", data-action="click", data-value="Flickr") On Flickr
             a.zocial.icon.rss(href="/feed.xml", data-category="link", data-action="click", data-value="RSS") Subscribe to RSS
-          .third &copy; #{ new Date().getFullYear() } 
+          .unit-33 &copy; #{ new Date().getFullYear() } 
               a(href="#{ locals.url }") Randy Merrill Photography
-          .third
+          .unit-33
             a(href="tel:14353634780", data-category="link", data-action="click", data-value="Telephone") 435.363.4780
     script(src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js")
     script(src="/scripts/jquery.freetile.js")

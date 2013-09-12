@@ -14,11 +14,11 @@ mixin gallery(count, page, perPage)
         - zeroFill = ''
         - for(j = 0; j < (countLen - lastLen); j++)
           - zeroFill += '0'
-      .product.row
-        .half
+      .product.units-row
+        .unit-70
           a.slide.fresco(href="images/image" + zeroFill + (i + 1) + '.jpg', data-fresco-group="wallet", data-fresco-group-options="ui: 'inside'")
             img.product-image(src="images/thumb" + zeroFill + (i + 1) + '.jpg')
-        .half
+        .unit-30
           input.product-title(type="hidden", value="Print #" + (i + 1))
           input.product-price(type="hidden", value="1.25")
           select.product-attr-custom

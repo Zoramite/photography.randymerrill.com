@@ -5,8 +5,8 @@ template: pricing.jade
 
 ### Portrait and Family Sessions
 
-<div class="row">
-	<div class="half">
+<div class="units-row">
+	<div class="unit-50">
 		<h4>Mini Sessions</h4>
 
 		<p>Each mini session comes with a basic photo package:</p>
@@ -32,7 +32,7 @@ template: pricing.jade
 			<li>1 Location&sup1;</li>
 		</ul>
 	</div>
-	<div class="half">
+	<div class="unit-50">
 		<h4>Full Sessions</h4>
 
 		<p>Each full session comes with a basic photo package:</p>
@@ -71,14 +71,13 @@ template: pricing.jade
 	<li><strong>4</strong> - 5x7 Prints</li>
 </ul>
 
-<div class="row">
-	<div class="half">
+<div class="units-row">
+	<div class="unit-50">
 		<h4>Silver Session</h4>
 
 		<ul>
 			<li><strong>$120</strong></li>
 			<li>45 Minutes</li>
-			<li>In Studio (on Base)</li>
 			<li>Up to 4 people</li>
 			<li>Additional 30 minute blocks available at <strong>$60</strong> per 30 minutes</li>
 		</ul>
@@ -91,8 +90,8 @@ A <strong>$300</strong>, non-refundable, deposit is due when booking a wedding. 
 
 Wedding package credit can be used towards <em>prints, bridal, engagement, or black tie sessions</em>.
 
-<div class="row">
-	<div class="half">
+<div class="units-row">
+	<div class="unit-50">
 		<h4>Silver Package</h4>
 		
 		<ul>
@@ -102,7 +101,7 @@ Wedding package credit can be used towards <em>prints, bridal, engagement, or bl
 			<li><strong>$300</strong> credit</li>
 		</ul>
 	</div>
-	<div class="half">
+	<div class="unit-50">
 		<h4>Platinum Package</h4>
 		
 		<ul>
@@ -125,8 +124,8 @@ Don't see your situation listed above? Call [435.363.4780][tel] to arrange a cus
 
 ### Gift Certificates
 
-<div class="product row">
-    <div class="half">
+<div class="product units-row">
+    <div class="unit-50">
 		<input type="hidden" class="product-title" value="Gift Certificate">
 		<input type="hidden" class="product-price" value="90.00">
 
@@ -147,15 +146,15 @@ Don't see your situation listed above? Call [435.363.4780][tel] to arrange a cus
 			</optgroup>
 		</select>
     </div>
-    <div class="half">
+    <div class="unit-50">
         <div class="googlecart-add-button" tabindex="0" role="button" title="Add to cart"></div>
     </div>
 </div>
 
 ### À la carte pricing
 
-<div class="row">
-	<div class="half">
+<div class="units-row">
+	<div class="unit-50">
 		<h4>Prints</h4>
 
 		<table>
@@ -193,7 +192,7 @@ Don't see your situation listed above? Call [435.363.4780][tel] to arrange a cus
 			</tbody>
 		</table>
 	</div>
-	<div class="half">
+	<div class="unit-50">
 		<h4>Wall Displays</h4>
 		<table>
 			<thead>

@@ -9,13 +9,13 @@ block content
       - zeroFill += '0'
 
     article.post
-      .row
+      .units-row
         if article.metadata.preview
-          .third
+          .unit-33
             figure.preview
               a(href=article.url)
                 img(src=article.url + "images/thumb" + zeroFill + article.metadata.preview + ".jpg")
-        .twothird
+        .unit-66
           h2
             a(href=article.url)= article.title
           .content !{ article.intro }
@@ -28,8 +28,10 @@ block content
               mixin author(article.metadata.author)
               | .
 
-  p
-    if prevPage
-      a.previousPage(href=prevPage.url) « Newer
-    if nextPage
-      a.nextPage(href=nextPage.url) Older »
+  .units-row
+    nav
+      ul.pagination
+        if prevPage
+          li.prev: a(href=prevPage.url) « Newer
+        if nextPage
+          li.next: a(href=nextPage.url) Older »

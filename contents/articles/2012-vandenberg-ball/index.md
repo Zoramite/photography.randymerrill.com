@@ -27,11 +27,11 @@ These photos are also available for viewing on [Google+][plus] and [Facebook][fb
 
 **Note:** Print orders will be grouped together to meet the minimum print order quantities. This means that there may be a wait between when you place the order and when the pictures are printed and delivered. If you have any questions feel free to call at [435.363.4780][tel].
 
-<div class="product row">
-	<div class="half">
+<div class="product units-row">
+	<div class="unit-40">
 		<p><strong>$20</strong> - DVD with personal print rights.</p>
 	</div>
-	<div class="half">
+	<div class="unit-60">
 		<input class="product-title" type="hidden" value="CD" />
 		<input class="product-price" type="hidden" value="20" />
 		<div class="googlecart-add-button" tabindex="0" role="button" title="Add to cart"></div>
