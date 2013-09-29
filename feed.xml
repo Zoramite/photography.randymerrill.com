@@ -5,9 +5,18 @@
     <atom:link href="http://photography.randymerrill.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://photography.randymerrill.com</link>
     <description>Adventures of Randy Merrill Photography.</description>
-    <pubDate>Mon, 24 Jun 2013 13:00:00 -0700</pubDate>
+    <pubDate>Sat, 28 Sep 2013 13:00:00 -0700</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>]W[ Senior Portraits</title>
+      <link>http://photography.randymerrill.com/articles/2013-w-senior-portraits/</link>
+      <pubDate>Sat, 28 Sep 2013 13:00:00 -0700</pubDate>
+      <guid isPermaLink="true">http://photography.randymerrill.com/articles/2013-w-senior-portraits/</guid>
+      <author></author>
+      <description>&lt;p&gt;Senior portraits with a football emphasis.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>]M[ Newborn</title>
       <link>http://photography.randymerrill.com/articles/2013-m-newborn/</link>
