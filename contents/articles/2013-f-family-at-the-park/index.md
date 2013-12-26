@@ -1,7 +1,7 @@
 ---
 title: "]F[ Family At The Park"
 author: randy-merrill
-date: 2013-06-24 13:00
+date: 2013-09-14 10:00
 template: article.jade
 tags: park, family
 gallery: 5
